@@ -1,0 +1,38 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.5",
+  "serialNumber": "urn:uuid:a64c73e3-0bf3-502f-a861-64b9d36ac1bb",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2026-10-06T07:55:06Z",
+    "component": {
+      "type": "application",
+      "name": "ESTATIO",
+      "version": "82817ed22d00",
+      "bom-ref": "pkg:generic/anticloud/ESTATIO@82817ed22d00",
+      "purl": "pkg:generic/anticloud/ESTATIO@82817ed22d00",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ]
+    },
+    "properties": [
+      {
+        "name": "anticloud:source-commit",
+        "value": "82817ed22d00467e33afd290498d684cacccb3f5"
+      },
+      {
+        "name": "anticloud:source-url",
+        "value": "https://github.com/estatio/estatio"
+      },
+      {
+        "name": "anticloud:tier",
+        "value": "tier-agent"
+      }
+    ]
+  },
+  "components": []
+}
